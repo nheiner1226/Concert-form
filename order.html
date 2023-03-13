@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Place Order</title>
+	<link rel="stylesheet" type="text/css" href="form_proc_new.css">
+  
+  </head>
+  <body>
+  <div class="content">
+	<h1>Concert tickets order form</h1>
+  <form name="orer_form" action="order.php" method="POST">
+ 
+  <label>
+  Concert name: <input type="text" name="concert_name" />
+  </label>
+  <br /><br />
+
+  <label>
+  Concert location: <input type="text" name="concert_location" />
+  </label>
+  <br /><br />
+
+<label>
+  Concert date: <select name="concert_dates">
+  					<option value="may18">May 18, 2023</option>
+  					<option value="jun15">June 15, 2023</option>
+  					<option value="jul7">July 7, 2023</option>
+  					<option value="aug20">August 20, 2023</option>
+  				</select>
+  </label>
+  <br /><br />
+  
+
+  <label>
+  Number of tickets: <input type="text" name="ticket_number" />
+  </label>
+  <br /><br />
+
+
+   <label>
+  Special requests: <input type="text" name="special_request" />
+  </label><br /><br />
+  <label>
+  <input type="submit" id="submitButton" value="Submit request"/>
+  </label>
+
+  
+  </form>
+  </div>
+  </body>
+</html>
